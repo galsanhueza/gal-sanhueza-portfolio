@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+}
+.body .encavezado {
+  color: #d87af0;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #4f08f5;
+}
+a:hover {
+  color: #000000;
+  background-color: #d87af0;
+}
+
+.imagenBio {
+  width: 500px;
+}
+
+.imagenEscr {
+  width: 500px;
+}
+
+.escrito_poema {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.escrito_poema .poema_parte1 {
+  text-align: end;
+}
+
+.imggale {
+  width: 300px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

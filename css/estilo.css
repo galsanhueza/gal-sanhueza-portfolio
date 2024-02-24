@@ -11,8 +11,20 @@
 }
 .body .encavezado {
   color: #d87af0;
-  font-family: "Alumni Sans", sans-serif;
-  font-weight: lighter;
+  font-family: "Smooch Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.body h1 {
+  font-family: "Smooch Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+.body h2 {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 5%;
 }
 
 a {
@@ -43,7 +55,8 @@ a:hover {
 }
 
 .imggale {
-  width: 300px;
+  width: 500px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

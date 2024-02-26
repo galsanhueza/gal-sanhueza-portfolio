@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: $violeta;
+    font-size: 20px;
+    &:hover{
+        color: $oscuro;
+        background-color: $rosa;
+    }
+}
+

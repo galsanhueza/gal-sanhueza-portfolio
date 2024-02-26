@@ -1,88 +1,11 @@
-$rosa:#d87af0;
-$violeta:#4f08f5;
-$oscuro: #000000;
-
-
-
+@import "var";
+@import "body";
+@import "a";
+@import "imagenes";
+@import "footer";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.body{
-    font-family: "Rajdhani", sans-serif;
-    line-height: 1.5;
-    padding: 20px;
-    .encavezado{
-        color: $rosa;
-        font-family: "Smooch Sans", sans-serif;
-        font-style: normal;
-        font-size: 16px;
-    }
-    h1{
-        font-family: "Smooch Sans", sans-serif;
-        font-style: normal;
-        font-size: 20px;
-    }
-    h2{
-        font-family: "Smooch Sans", sans-serif;
-        font-weight: 500;
-        font-size: 25px;
-        margin-top: 5%;
-    }
-}
-
-a{
-    text-decoration: none;
-    color: $violeta;
-    font-size: 20px;
-    &:hover{
-        color: $oscuro;
-        background-color: $rosa;
-    }
-}
-
-.imagenBio {
-    width: 500px;
-}
-
-.imagenEscr {
-    width: 500px;
-}
-
-
-.imggale  {
-    width: 500px;
-    padding: 10px;
-    opacity: 60%;
-    border-radius: 100%;
-    transition: all 2s;
-    &:hover{
-        border-radius: 0%;
-        opacity:100%;
-    }
-}
-
-.piedepag{
-       
-    .ig{
-        width: 20px;
-        margin: 5px;
-    }
-    
-    .pagweb{
-        width: 20px;
-        margin: 5px;
-    }
-    
-    .correo{
-        width: 20px;
-        margin: 5px;
-    }
-}
-
-.enlace{
-    width: 50px;
 }

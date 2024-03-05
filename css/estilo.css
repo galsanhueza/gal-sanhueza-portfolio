@@ -40,15 +40,15 @@ a:hover {
 }
 
 .imagenEscr {
-  width: 500px;
+  width: 100%;
 }
 
 .imggale {
-  width: 500px;
+  width: 100%;
   padding: 10px;
   opacity: 60%;
   border-radius: 100%;
-  transition: all 2s;
+  transition: all 0.5s;
 }
 .imggale:hover {
   border-radius: 0%;

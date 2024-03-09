@@ -2,6 +2,7 @@
     font-family: "Rajdhani", sans-serif;
     line-height: 1.5;
     padding: 20px;
+    background-image: linear-gradient(to top, #000000, #1d1d1d, #333333, #4b4b4c, #646466, #78797b, #8d8e91, #a3a4a7, #b9babc, #d0d0d2, #e8e8e8, #ffffff);
     .encavezado{
         color: $rosa;
         font-family: "Smooch Sans", sans-serif;
@@ -11,7 +12,7 @@
     h1{
         font-family: "Smooch Sans", sans-serif;
         font-style: normal;
-        font-size: 20px;
+        font-size: 30px;
     }
     h2{
         font-family: "Smooch Sans", sans-serif;
@@ -19,8 +20,12 @@
         font-size: 25px;
         margin-top: 5%;
     }
+
 }
 
 .enlace{
     width: 50px;
 }
+
+
+

@@ -2,6 +2,7 @@
   font-family: "Rajdhani", sans-serif;
   line-height: 1.5;
   padding: 20px;
+  background-image: linear-gradient(to top, #000000, #1d1d1d, #333333, #4b4b4c, #646466, #78797b, #8d8e91, #a3a4a7, #b9babc, #d0d0d2, #e8e8e8, #ffffff);
 }
 .body .encavezado {
   color: #d87af0;
@@ -12,7 +13,7 @@
 .body h1 {
   font-family: "Smooch Sans", sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 30px;
 }
 .body h2 {
   font-family: "Smooch Sans", sans-serif;
@@ -27,8 +28,8 @@
 
 a {
   text-decoration: none;
-  color: #4f08f5;
-  font-size: 20px;
+  color: #d87af0;
+  font-size: 18px;
 }
 a:hover {
   color: #000000;
@@ -36,7 +37,7 @@ a:hover {
 }
 
 .imagenBio {
-  width: 500px;
+  width: 350px;
 }
 
 .imagenEscr {
@@ -44,15 +45,7 @@ a:hover {
 }
 
 .imggale {
-  width: 100%;
-  padding: 10px;
-  opacity: 60%;
-  border-radius: 100%;
-  transition: all 0.5s;
-}
-.imggale:hover {
-  border-radius: 0%;
-  opacity: 100%;
+  width: 70%;
 }
 
 .piedepag .ig {
@@ -63,15 +56,15 @@ a:hover {
   width: 20px;
   margin: 5px;
 }
-.piedepag .correo {
-  width: 20px;
-  margin: 5px;
-}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.navbar {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */
